@@ -11,6 +11,7 @@ while True:
         elif guess < number_to_guess:
             print("Number is way too low")
         else:
-            print("Awesome!! you've gussed the number")
+            print("Awesome!! you've guessed the number")
         break
-except ValueError:
+    except ValueError:
+        print("Please enter a number only!")
